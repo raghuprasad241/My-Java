@@ -14,6 +14,7 @@ class F extends E
 	F()
 	{
 		//Calls super() or super calle here.
+		// this and super calle should be the first statement in the constructor.
 		this(10); // Calls the constructor with compatible arguments in this class.
 		System.out.print("This is class F");
 	}
